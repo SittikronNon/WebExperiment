@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mid, .fail, .success {
+  background-color: rgb(251, 121, 255);
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+
+.success {
+  background-color: green;
+}
+
+.fail {
+  background-color: red;
+}
+
+.mid {
+  background-color: orange;
+}
+
+/*# sourceMappingURL=styles.css.map */

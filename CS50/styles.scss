@@ -1,0 +1,31 @@
+$color: blue;
+$background: rgb(251, 121, 255);
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+%message {
+    background-color: $background;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+.success {
+    @extend %message;
+    background-color: green;
+}
+
+.fail {
+    @extend %message;
+    background-color: red;
+}
+
+.mid {
+    @extend %message;
+    background-color: orange;
+}
